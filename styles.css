@@ -16,10 +16,91 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .header-right {
     display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
+    gap: 10px;
+
 }
+
+.header-center {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-center-left, .header-center-image {
+    display: inline-flexbox;
+    flex: 1;
+}
+
+.information {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.information-top {
+    text-align: center;
+}
+
+.information-bottom {
+    display: flex;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.quote {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote-bottom {
+    text-align: right;
+}
+
+h4, h3 {
+    margin: 0;
+}
+
+.cta {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto
+    
+}
+
+.cta-left {
+    flex: 3;
+}
+
+.cta-right {
+    display: flex;
+    flex: 1;
+    
+}
+
+.su-button {
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
