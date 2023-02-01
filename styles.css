@@ -10,13 +10,15 @@ body {
 * {
     border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: transparent;
     font-family: 'Roboto', sans-serif;
     color: #f9faf8;
 }
 
 .hero {
     background-color: #1F2937;
+    height: 100vh;
+    width: 100;
 }
 
 .header {
@@ -25,7 +27,7 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 15px;   
 }
 
@@ -37,6 +39,10 @@ body {
 .header-right {
     display: flex;
     gap: 10px;
+}
+
+:hover.header-item {
+    color: #3882f6;
 }
 
 .header-main {
@@ -58,23 +64,38 @@ body {
     padding: 2px 10px 2px 10px;
 }
 
+:hover.header-button {
+    background-color: #1F2937;
+    border-color: white;
+}
+
 .header-image {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
     align-self: center;
     justify-self: center;
+    border-color: #3882f6;
+    border-radius: 25px;
+    border-width: 3px;
+    filter: drop-shadow(0px 0px 10px darkgrey);
+    background-color: #1F2937;
+
 }
+
+
 .header-center {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25vh;
+    margin-bottom: auto;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    gap: 40px;
+
 }
 
 .header-center-left, .header-center-image {
